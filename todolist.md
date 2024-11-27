@@ -1,6 +1,9 @@
 # $UBC Whitepaper v2 Improvement Tasks
 
 ## 1. Market Context & Timing
+- [ ] Review existing v2.0 content and document initial findings.
+- [ ] Integrate updated metrics and insights into the whitepaper.
+- [ ] Expand on existing technical specifications and diagrams.
 ✓ Integrate current market performance data
   ✓ Add $96.1M market cap figure
   ✓ Include 555% growth metric
