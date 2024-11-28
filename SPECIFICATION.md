@@ -3,6 +3,10 @@
 ## 1. Foundational Principles
 - Enhanced technical specifications and architectural diagrams based on the latest developments.
 
+### Community Growth Metrics
+- Active community engagement metrics.
+- Developer onboarding processes and success rates.
+
 ### Core Vision
 KinOS v6 represents a fundamental shift towards true AI autonomy, implementing:
 - Directory-based autonomous operation
