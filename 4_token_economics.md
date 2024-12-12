@@ -35,11 +35,17 @@ This approach ensures complete alignment with community interests and maintains 
 
 ### $COMPUTE Token
 The $COMPUTE token features a dynamic supply model designed for sustainable resource allocation:
-- No fixed supply limit
-- Generated only through $UBC staking
+- No fixed supply limit (infinite maximum supply)
+- Generated only through $UBC staking at fixed rates:
+  - 90-day pool: 0.3 $COMPUTE per 1,000 $UBC daily
+  - 165-day pool: 0.5 $COMPUTE per 1,000 $UBC daily
+  - 365-day pool: 1.0 $COMPUTE per 1,000 $UBC daily
 - Continuous burn mechanisms based on usage
 - Market-driven price discovery
-This model ensures sufficient liquidity for AI operations while maintaining value through systematic burns and utility-driven demand.
+- Total staking pool: 7B $COMPUTE allocated over 10 years
+- 70% of total $COMPUTE supply reserved for staking rewards
+
+This model ensures sufficient liquidity for AI operations while maintaining value through systematic burns and utility-driven demand. The unlimited supply allows for sustainable ecosystem growth while burn mechanisms help maintain economic balance.
 
 ## Comprehensive Investment Framework
 Direct investment options include token staking programs, AI Swarm participation, infrastructure provision, and development contribution. Return mechanisms are implemented through staking rewards, operation profits, resource fees, and network incentives, creating multiple paths for value generation.
