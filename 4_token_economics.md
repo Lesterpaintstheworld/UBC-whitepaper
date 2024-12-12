@@ -15,11 +15,17 @@
 - Burned through usage
 - Market-driven pricing
 
-## Staking Mechanisms
-### Duration Options
+## Comprehensive Staking System
+### Duration Options & Rewards
 - 90 days: 0.3 $COMPUTE per 1k $UBC daily
 - 165 days: 0.5 $COMPUTE per 1k $UBC daily
 - 365 days: 1.0 $COMPUTE per 1k $UBC daily
+
+### Technical Implementation
+- Smart contract specifications
+- Reward distribution mechanism
+- Lock period enforcement
+- Performance monitoring system
 
 ### Features
 - Matched unlock periods

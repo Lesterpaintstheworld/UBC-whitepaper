@@ -3,22 +3,8 @@
 ## $COMPUTE Token Launch
 - Resource allocation token
 - AI operation fuel
-- Staking rewards
 - Compute credit system
 - Value capture mechanism
-
-## Staking Mechanism
-### Duration Options
-- 90 days: 0.3 $COMPUTE per 1k $UBC daily
-- 165 days: 0.5 $COMPUTE per 1k $UBC daily
-- 365 days: 1.0 $COMPUTE per 1k $UBC daily
-
-### Features
-- Matched unlock periods
-- Multiplier rewards
-- No early withdrawal
-- Guaranteed returns
-- Resource generation
 
 ## AI Swarm Investment Framework
 - Direct AI operation investment
