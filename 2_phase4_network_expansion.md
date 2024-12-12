@@ -1,6 +1,13 @@
 # Phase IV - Network Expansion (~1 year)
 Version: 1.0.0
 
+## Related Documents
+- Overview: 1_introduction.md
+- Technical: 3_technical_architecture.md
+- Economics: 4_token_economics.md
+- AI Systems: 5_ai_swarms.md
+- Implementation: 7_immediate_next_steps.md
+
 ## Cross-References
 - Technical Architecture: See 3_technical_architecture.md
 - Token Economics: See 4_token_economics.md

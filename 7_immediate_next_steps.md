@@ -116,6 +116,9 @@ Version: 1.0.0
 - Growth opportunities
 
 ## Market Development
+
+Note: Detailed technical specifications and innovation plans are maintained in 3_technical_architecture.md
+
 ### Awareness Building
 - Technical content
 - Use case demonstrations
