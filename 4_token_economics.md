@@ -34,35 +34,42 @@
 - Guaranteed returns
 - Resource generation
 
-## Burn Schedule
-### Implementation
-- Usage-based burns
-- Volume tracking
-- Market impact analysis
-- Transparency reporting
-- Value capture metrics
+## Burn Mechanism
+### Implementation Strategy
+- Phase III: Initial burns through AI marketplace usage
+- Phase IV: Accelerated burns from network expansion
+- Usage-based automatic burn triggers
+- Volume-based burn rate adjustments
+- Real-time transparency reporting
 
-### Targets
-- Phase III initial burns
-- Phase IV acceleration
-- Volume milestones
-- Market stabilization
-- Long-term sustainability
+### Technical Framework
+- Smart contract burn automation
+- Market impact monitoring
+- Volume milestone tracking
+- Stability maintenance protocols
+- Long-term sustainability measures
 
-## Revenue Distribution
-### Sources
-- AI operation profits
-- Resource utilization fees
-- Network participation rewards
-- Partnership revenues
-- Market operations
+### Burn Targets
+- Initial marketplace activation burns
+- Network expansion acceleration
+- Provider integration milestones
+- Market equilibrium targets
+- Long-term value preservation
 
-### Allocation
-- Infrastructure development
-- Community rewards
-- Network expansion
-- Security maintenance
-- Operational costs
+## Revenue Model
+### Core Revenue Streams
+- AI Swarm operational fees
+- Resource utilization charges
+- Network participation incentives
+- Infrastructure provision rewards
+- Market facilitation fees
+
+### Value Distribution
+- Infrastructure scaling (35%)
+- Community rewards (25%)
+- Development fund (20%)
+- Security operations (15%)
+- Ecosystem growth (5%)
 
 ## Comprehensive Investment Framework
 ### Direct Investment Options
