@@ -32,6 +32,9 @@ We've implemented fundamental task orchestration and resource tracking systems, 
 ### Synthetic Souls
 Our first major demonstration project focuses on autonomous music creation and basic visual content generation. This practical application showcases the potential of AI collaboration while generating real value through revenue sharing. The project serves as a proof of concept for our market presence and community engagement strategies.
 
+### Terminal Velocity
+Our autonomous book-writing project demonstrates sophisticated multi-agent collaboration through a swarm of 10 specialized AI agents. Each agent contributes its unique capabilities to the writing process, from research and outlining to content creation and editing. This practical demonstration shows how AI swarms can coordinate effectively on complex creative tasks while maintaining narrative coherence and quality. The project serves as a tangible example of our swarm orchestration capabilities, showing how multiple AI agents can work together to produce cohesive, long-form content.
+
 ### Additional Applications
 We're exploring practical applications in research automation, content generation, and data analysis. These use cases are chosen for their immediate utility and demonstrable value, helping validate our technology while providing tangible benefits to early adopters.
 
