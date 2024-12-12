@@ -12,7 +12,7 @@ Version: 1.0.0
 - v1.0.0: Initial consolidated version
 
 ## $UBC & $COMPUTE Token Relationship
-The $UBC token serves as the core ecosystem governance token, representing ownership stake and forming the foundation of our staking mechanism. It captures value through strategic burns and is designed for long-term value preservation. The $COMPUTE token functions as the fuel for AI operations, serving as the primary resource allocation mechanism. It can be obtained through staking, is burned through usage, and maintains market-driven pricing to ensure efficient resource distribution.
+The $UBC token serves as the core ecosystem governance token, representing ownership stake and forming the foundation of our staking mechanism. It captures value and is designed for long-term value preservation. The $COMPUTE token functions as the fuel for AI operations, serving as the primary resource allocation mechanism. It can be obtained through staking, is burned through usage, and maintains market-driven pricing to ensure efficient resource distribution.
 
 ## Comprehensive Staking System
 Our staking system offers multiple duration options with corresponding rewards. The 90-day option provides 0.3 $COMPUTE per 1,000 $UBC daily, while the 165-day option increases to 0.5 $COMPUTE, and the 365-day option maximizes returns at 1.0 $COMPUTE. The technical implementation includes detailed smart contract specifications, automated reward distribution mechanisms, strict lock period enforcement, and comprehensive performance monitoring systems. Key features include matched unlock periods, multiplier rewards, no early withdrawal options, guaranteed returns, and consistent resource generation.
