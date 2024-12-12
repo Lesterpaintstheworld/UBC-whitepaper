@@ -8,10 +8,10 @@ Our foundation phase focuses on three core objectives: launching the $UBC token 
 Note: All timelines are indicative and may be adjusted based on market conditions, technical requirements, and community needs. Our focus remains on delivering high-quality, secure infrastructure rather than rigid adherence to specific dates.
 
 ### Days 1-3: Token Launch & Infrastructure
-During the first three days, we focus on deploying and securing our core infrastructure. This includes implementing and thoroughly auditing essential smart contracts to ensure security, efficiency, and scalability for the ecosystem. We launch our staking mechanism, enabling token holders to participate in network security and earn rewards. Simultaneously, we deploy comprehensive monitoring tools to track network health, performance, and security in real-time.
+During the first three days, we focus on deploying and securing our core infrastructure. This includes implementing and thoroughly auditing essential smart contracts to ensure security, efficiency, and scalability for the ecosystem. We launch our staking mechanism, enabling token holders to participate in network security and earn rewards.
 
 ### Days 4-7: Community Building & Validation
-The remaining days center on establishing our governance framework and community engagement systems. We implement decentralized governance mechanisms that enable meaningful community participation in key decisions. We create structured channels for community input and feature requests to guide development, while actively engaging key opinion leaders to expand awareness and validate our approach.
+The remaining days center on establishing our governance framework and community engagement systems. We implement governance mechanisms that enable meaningful community participation in key decisions. We create structured channels for community input and feature requests to guide development, while actively engaging key opinion leaders to expand awareness and validate our approach.
 
 ## Document History
 - v1.0.0: Initial consolidated version
