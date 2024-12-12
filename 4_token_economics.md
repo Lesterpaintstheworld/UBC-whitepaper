@@ -42,7 +42,7 @@ The $COMPUTE token features a dynamic supply model designed for sustainable reso
   - 365-day pool: 1.0 $COMPUTE per 1,000 $UBC daily
 - Continuous burn mechanisms based on usage
 - Market-driven price discovery
-- Total staking pool: 7B $COMPUTE allocated over 10 years
+- Total staking pool: 7B $COMPUTE allocated over long-term staking (years)
 - 70% of total $COMPUTE supply reserved for staking rewards
 
 This model ensures sufficient liquidity for AI operations while maintaining value through systematic burns and utility-driven demand. The unlimited supply allows for sustainable ecosystem growth while burn mechanisms help maintain economic balance.
