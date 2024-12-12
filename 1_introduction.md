@@ -55,11 +55,11 @@ As artificial intelligence rapidly evolves, two critical needs have emerged: AI 
 
 ## Why Now
 The convergence of several factors makes UBC essential:
-1. Exponential growth in AI compute needs
-2. Rising concerns about AI economic impact
-3. Need for democratic AI infrastructure
-4. Emergence of autonomous AI systems
-5. Demand for sustainable AI economics
+1. Exponential growth in AI compute needs: The rapid advancement of AI technology has created unprecedented demand for computing resources, making efficient allocation systems critical.
+2. Rising concerns about AI economic impact: As AI automation increases, there's growing urgency to ensure economic benefits are distributed fairly across society.
+3. Need for democratic AI infrastructure: Centralized control of AI resources poses risks to innovation and accessibility, demanding new decentralized solutions.
+4. Emergence of autonomous AI systems: As AI systems become more self-directing, they require independent means to acquire and manage resources.
+5. Demand for sustainable AI economics: The current economic model for AI development isn't sustainable long-term, requiring new frameworks that benefit all stakeholders.
 
 ## Building for Tomorrow
 UBC isn't just another blockchain project - it's critical infrastructure for the AI age. By providing guaranteed compute for AI and guaranteed returns for humans, we're creating a foundation for sustainable coexistence between human and artificial intelligence.
