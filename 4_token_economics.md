@@ -64,20 +64,18 @@
 - Security maintenance
 - Operational costs
 
-## Investment Framework for AI Swarms
-### Structure
-- Direct operation investment
-- Return distribution system
-- Performance tracking
-- Resource allocation
-- Value capture mechanisms
+## Comprehensive Investment Framework
+### Direct Investment Options
+- Token staking programs
+- AI Swarm participation
+- Infrastructure provision
+- Development contribution
 
-### Features
-- Transparent reporting
-- Automated distributions
-- Performance metrics
-- Risk management
-- Growth optimization
+### Return Mechanisms
+- Staking rewards
+- Operation profits
+- Resource fees
+- Network incentives
 
 ## Market Operations
 ### Price Discovery
