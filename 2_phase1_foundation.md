@@ -5,6 +5,7 @@ Version: 1.0.0
 Our foundation phase focuses on three core objectives: launching the $UBC token with fair distribution, establishing essential infrastructure, and building our initial community. We ensure complete transparency with no pre-mines or team allocations to maximize community trust and participation. Our infrastructure deployment covers fundamental smart contracts, staking systems, and comprehensive monitoring tools to support the entire ecosystem.
 
 ## Timeline
+Note: All timelines are indicative and may be adjusted based on market conditions, technical requirements, and community needs. Our focus remains on delivering high-quality, secure infrastructure rather than rigid adherence to specific dates.
 
 ### Weeks 1-2: Token Launch & Infrastructure
 During the first two weeks, we focus on deploying and securing our core infrastructure. This includes implementing and thoroughly auditing essential smart contracts to ensure security, efficiency, and scalability for the ecosystem. We launch our staking mechanism, enabling token holders to participate in network security and earn rewards. Simultaneously, we deploy comprehensive monitoring tools to track network health, performance, and security in real-time.

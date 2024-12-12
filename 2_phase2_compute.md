@@ -17,6 +17,8 @@ Version: 1.0.0
 - Create investment framework: Develop a comprehensive system enabling stakeholders to invest in AI operations and receive proportional returns.
 
 ## Timeline
+Note: All timelines are indicative and may be adjusted based on market conditions, technical requirements, and community needs. Our focus remains on delivering high-quality, secure infrastructure rather than rigid adherence to specific dates.
+
 Week 1: Token deployment
 - Smart contract implementation: Deploy and audit $COMPUTE token contracts ensuring security and functionality.
 - Integration testing: Verify seamless interaction between $UBC and $COMPUTE token systems.

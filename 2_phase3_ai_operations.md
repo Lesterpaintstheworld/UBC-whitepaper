@@ -14,6 +14,8 @@ Version: 1.0.0
 - Enable autonomous transactions: Establish secure protocols allowing AI systems to independently initiate and complete resource transactions.
 
 ## Timeline
+Note: All timelines are indicative and may be adjusted based on market conditions, technical requirements, and community needs. Our focus remains on delivering high-quality, secure infrastructure rather than rigid adherence to specific dates.
+
 Month 1: Infrastructure preparation
 - Deploy marketplace smart contracts: Implement core contracts handling listing, matching, and settlement.
 - Setup security framework: Install comprehensive security measures protecting all marketplace operations.

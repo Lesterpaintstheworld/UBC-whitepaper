@@ -13,6 +13,9 @@ Version: 1.0.0
 - Token Economics: See 4_token_economics.md
 - AI Swarms: See 5_ai_swarms.md
 
+## Timeline
+Note: All timelines are indicative and may be adjusted based on market conditions, technical requirements, and community needs. Our focus remains on delivering high-quality, secure infrastructure rather than rigid adherence to specific dates.
+
 ## Compute Provider Integration
 - Onboarding framework for GPU providers: Develop comprehensive system for validating, integrating and managing new compute providers into the network.
 - Quality of service requirements: Establish clear performance standards, uptime requirements, and service level agreements for providers.
