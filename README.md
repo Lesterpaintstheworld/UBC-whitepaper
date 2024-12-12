@@ -1,5 +1,7 @@
 # Universal Basic Compute (UBC) Whitepaper
 
+[📄 Download PDF Version](ubc_whitepaper.pdf)
+
 ## Overview
 This repository contains the official UBC whitepaper - a living, breathing document that evolves with our project and community. Rather than a static PDF, we've chosen to maintain our whitepaper in an open, version-controlled format to ensure maximum transparency and enable community participation.
 
