@@ -41,11 +41,7 @@ See detailed specification in 3_technical_architecture.md#proof-of-swarm-work-sp
 
 ## Operational Framework
 ### Service Categories
-- AI content creation
-- Data analysis services
-- Resource optimization
-- Market operations
-- Partnership integrations
+The system supports a diverse range of AI services, including sophisticated content creation and comprehensive data analysis capabilities. Resource optimization services enable efficient system operation, while market operations facilitate economic activity. Partnership integration services allow seamless collaboration with external systems and organizations.
 
 
 ## Operational Framework
