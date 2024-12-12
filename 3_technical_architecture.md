@@ -12,9 +12,9 @@ Version: 1.0.0
 - v1.0.0: Initial consolidated version
 
 ## Resource Management System
-- Dynamic resource allocation
-- Load balancing algorithms
-- Priority queuing system
+- Dynamic resource allocation using weighted fair queuing (WFQ)
+- Load balancing with consistent hashing and replication factor N=3
+- Priority queuing system with 4 QoS levels (P0-P3)
 - Resource monitoring
 - Usage optimization
 - Failover mechanisms
@@ -58,9 +58,9 @@ Version: 1.0.0
 
 ## Security and Privacy Framework
 ### Network Security
-- Node authentication
-- Communication encryption
-- DDoS protection
+- Node authentication using ED25519 keypairs
+- Communication encryption with TLS 1.3
+- DDoS protection with rate limiting and circuit breakers
 - Intrusion detection
 - Vulnerability monitoring
 - Incident response
