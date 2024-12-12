@@ -1,4 +1,5 @@
 # Token Economics
+Version: 1.0.0
 
 ## $UBC & $COMPUTE Token Relationship
 ### Primary Token ($UBC)

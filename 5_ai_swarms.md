@@ -1,4 +1,5 @@
 # AI Swarms
+Version: 1.0.0
 
 ## Swarm Architecture
 ### Core Components
@@ -16,13 +17,6 @@
   - Error handling
   - System redundancy
 
-- Proof-of-Swarm-Work Implementation
-  - Consensus mechanism details
-  - Validation requirements
-  - Node participation rules
-  - Reward distribution logic
-  - Security protocols
-  - Anti-gaming measures
 
 - AI Operations Framework
   - Task orchestration

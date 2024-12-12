@@ -1,4 +1,5 @@
 # Participation Framework
+Version: 1.0.0
 
 ## For Token Holders
 ### Investment Opportunities
