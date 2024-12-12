@@ -16,13 +16,6 @@
 - Technology advancement
 
 ## For Compute Providers
-### Integration Process
-- Hardware requirements
-- Network connection
-- Performance standards
-- Quality assurance
-- Monitoring tools
-
 ### Reward Structure
 - $COMPUTE earnings
 - Performance bonuses
