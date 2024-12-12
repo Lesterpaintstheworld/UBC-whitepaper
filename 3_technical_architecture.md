@@ -23,16 +23,27 @@ We maintain strict security through multi-signature requirements and role-based 
 Our monitoring infrastructure tracks all on-chain operations in real-time. We maintain detailed logs of balances, transactions, and system status. Error tracking provides immediate alerts for any irregular activity. Performance metrics help optimize gas usage and transaction efficiency. Usage statistics inform ongoing improvements.
 
 ### Core Operations
-The staking system manages pool entry, exit, and reward distribution through automated smart contracts. Token operations handle transfers, burns, and balance updates with built-in security checks. Basic governance enables parameter updates and emergency controls when needed. All operations are designed for reliability and efficiency.
 
-### Resource Management
-Smart contracts track basic compute credit allocation and usage. Simple verification systems ensure proper resource accounting. Balance management maintains accurate records of all allocations. Usage tracking provides transparency for all operations. The system scales efficiently with increased activity.
+#### Staking System
+The staking contracts manage three key time-locked pools. Each pool has specific reward rates and lock periods. The 90-day pool offers base rewards of 0.3 $COMPUTE per 1000 $UBC daily. The 165-day pool increases rewards to 0.5 $COMPUTE. The 365-day pool provides the highest rate at 1.0 $COMPUTE. Smart contracts automatically calculate and distribute rewards based on stake duration and amount.
 
-This infrastructure prioritizes:
-1. Reliable smart contract operations
-2. Strong security measures  
-3. Efficient token management
-4. Accurate staking systems
-5. Essential monitoring capabilities
+#### Token Management
+Our token contracts handle all basic operations with built-in security checks. Transfer functions include balance verification and allowance controls. The burn mechanism permanently removes tokens from circulation through verified transactions. Supply tracking maintains accurate records of all token movements. Distribution systems ensure reliable reward delivery to stakers.
 
-We focus on building a solid foundation of proven smart contract functionality before expanding to more complex features. Each component is designed for security, efficiency, and reliability.
+#### Security Controls
+Multi-signature requirements protect all critical contract functions. Role-based permissions restrict access to administrative features. Time-lock mechanisms prevent rushed changes to core parameters. Emergency pause functionality allows quick response to any issues. Regular security audits verify all contract operations.
+
+#### Monitoring Framework
+Real-time tracking captures all on-chain transactions and events. Balance monitoring ensures accurate token accounting across all pools. Error detection provides immediate notification of irregular activities. Performance tracking helps optimize gas usage and efficiency. Usage analytics guide ongoing system improvements.
+
+#### Basic Governance
+Smart contracts enable controlled updates to system parameters. Emergency controls allow rapid response to critical situations. Access management restricts administrative functions to authorized roles. Configuration changes follow strict security protocols. All governance actions are recorded on-chain.
+
+This operational framework ensures:
+1. Secure token operations
+2. Reliable staking rewards
+3. Protected administrative functions
+4. Accurate transaction tracking
+5. Controlled system updates
+
+Each component focuses on essential functionality needed for secure token and staking operations. We prioritize reliability and security over complex features.
