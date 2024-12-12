@@ -21,7 +21,25 @@ Our staking system offers multiple duration options with corresponding rewards. 
 Our implementation strategy begins with automated marketplace burns in Phase III, followed by accelerated network expansion burns in Phase IV. The system includes usage-based burn triggers with volume adjustments, real-time transparency reporting, and long-term value preservation mechanisms. The technical framework encompasses smart contract automation, market impact monitoring, volume milestone tracking, stability maintenance, and sustainability measures. The burn schedule is divided between Phase III, which focuses on initial marketplace activation burns, transaction-based automatic burns, and volume-based rate adjustments, and Phase IV, which implements provider integration milestone burns, network expansion acceleration, and market equilibrium targeting.
 
 ## Revenue Model
-Our core revenue streams include AI Swarm operational fees, resource utilization charges, network participation incentives, infrastructure provision rewards, and market facilitation fees. Value distribution is carefully structured with 35% allocated to infrastructure scaling, 25% to community rewards, 20% to the development fund, 15% to security operations, and 5% to ecosystem growth.
+Our core revenue streams include AI Swarm operational fees, resource utilization charges, network participation incentives, infrastructure provision rewards, and market facilitation fees. Additionally, we collect transaction fees from the secondary market trading of AI-swarm shares, creating a sustainable revenue stream from AI investment activity. Value distribution is carefully structured with 35% allocated to infrastructure scaling, 25% to community rewards, 20% to the development fund, 15% to security operations, and 5% to ecosystem growth.
+
+## Token Allocation & Supply
+
+### $UBC Token
+The $UBC token was launched with a completely fair distribution model, featuring:
+- No pre-mine or team allocation
+- No venture capital or private sales
+- 100% fair public launch
+- Fixed total supply
+This approach ensures complete alignment with community interests and maintains the token's position as the primary governance and value capture mechanism.
+
+### $COMPUTE Token
+The $COMPUTE token features a dynamic supply model designed for sustainable resource allocation:
+- No fixed supply limit
+- Generated only through $UBC staking
+- Continuous burn mechanisms based on usage
+- Market-driven price discovery
+This model ensures sufficient liquidity for AI operations while maintaining value through systematic burns and utility-driven demand.
 
 ## Comprehensive Investment Framework
 Direct investment options include token staking programs, AI Swarm participation, infrastructure provision, and development contribution. Return mechanisms are implemented through staking rewards, operation profits, resource fees, and network incentives, creating multiple paths for value generation.
