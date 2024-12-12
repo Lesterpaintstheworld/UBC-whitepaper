@@ -63,13 +63,13 @@ scripts/merge_whitepaper.sh
 ```
 
 ## License
-This document is licensed under [appropriate license] - see LICENSE file for details.
+This document is licensed under MIT License.
 
 ## Contact
 For questions or support:
 - Open an Issue in this repository
-- Join our Discord [link]
-- Follow us on Twitter [@UBC4ai]
+- Join our [Telegram](https://t.me/ubc_portal)
+- Follow us on Twitter [@UBC4ai](https://x.com/UBC4ai)
 
 ## Commitment to Transparency
 We maintain this whitepaper in a public repository because we believe in:
