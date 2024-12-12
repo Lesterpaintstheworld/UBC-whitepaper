@@ -1,13 +1,6 @@
 # Participation Framework
 
 ## For Token Holders
-### Staking Benefits
-- Guaranteed $COMPUTE generation
-- Multiple duration options
-- Compounding rewards
-- Value appreciation
-- Governance rights
-
 ### Investment Opportunities
 - AI Swarm investment
 - Resource market participation
@@ -67,20 +60,5 @@
 - Career advancement
 - Project involvement
 - Leadership roles
-
-## Success Metrics
-### Participation Growth
-- Token holder increase
-- Provider network expansion
-- Developer adoption
-- Investment volume
-- Community engagement
-
-### Performance Indicators
-- Network utilization
-- Resource efficiency
-- Development activity
-- Market impact
-- Community growth
 
 This framework ensures inclusive participation across all stakeholder groups, creating a sustainable ecosystem that benefits all participants while driving continuous growth and innovation.

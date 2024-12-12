@@ -36,25 +36,29 @@
 
 ## Burn Mechanism
 ### Implementation Strategy
-- Phase III: Initial burns through AI marketplace usage
-- Phase IV: Accelerated burns from network expansion
-- Usage-based automatic burn triggers
-- Volume-based burn rate adjustments
+- Automated marketplace burns starting Phase III
+- Accelerated network expansion burns in Phase IV
+- Usage-based burn triggers with volume adjustments
 - Real-time transparency reporting
+- Long-term value preservation mechanisms
 
 ### Technical Framework
-- Smart contract burn automation
+- Smart contract automation
 - Market impact monitoring
 - Volume milestone tracking
-- Stability maintenance protocols
-- Long-term sustainability measures
+- Stability maintenance
+- Sustainability measures
 
-### Burn Targets
+### Burn Schedule
+Phase III:
 - Initial marketplace activation burns
+- Transaction-based automatic burns
+- Volume-based rate adjustments
+
+Phase IV:
+- Provider integration milestone burns
 - Network expansion acceleration
-- Provider integration milestones
-- Market equilibrium targets
-- Long-term value preservation
+- Market equilibrium targeting
 
 ## Revenue Model
 ### Core Revenue Streams
