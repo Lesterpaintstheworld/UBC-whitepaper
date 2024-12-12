@@ -1,4 +1,10 @@
 # Phase IV - Network Expansion (~1 year)
+Version: 1.0.0
+
+## Cross-References
+- Technical Architecture: See 3_technical_architecture.md
+- Token Economics: See 4_token_economics.md
+- AI Swarms: See 5_ai_swarms.md
 
 ## Compute Provider Integration
 - Onboarding framework for GPU providers
