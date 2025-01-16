@@ -102,14 +102,16 @@ All trades incur a 5% total fee, collected in UBC:
   * Used for platform operations and development
 - 2% Investor Fee
   * Collected in UBC
-  * Distributed to UBC investors
+  * Must be claimed by UBC investors
+  * Unclaimed rewards after 30 days are burned
 
 Benefits of this structure:
 - No $COMPUTE sell pressure
 - Clean separation of utility and value capture
 - $COMPUTE remains purely for compute resources
 - UBC captures all fee value
-- Direct investor rewards
+- Claimable investor rewards
+- Unclaimed rewards support UBC value through burns
 - Supports UBC price appreciation
 
 ## Market Operations
