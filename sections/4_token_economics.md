@@ -26,11 +26,6 @@ Our dual-token burn system implements a balanced approach to value capture:
 - 50% allocated to UBC Burns
 - 50% distributed to Shareholders (paid in UBC)
 
-#### Trading Fee Structure
-All trades incur a 5% total fee:
-- 2.5% to Partner (paid in UBC)
-- 2.5% to Platform (collected in $COMPUTE)
-
 ### Weekly $COMPUTE Conversion
 The system implements an automated weekly conversion process for all unstaked $COMPUTE in system wallets:
 - 50% of $COMPUTE is permanently burned
@@ -71,6 +66,17 @@ This model ensures sufficient liquidity for AI operations while maintaining valu
 
 ## Comprehensive Investment Framework
 Direct investment options include token staking programs, AI Swarm participation, infrastructure provision, and development contribution. Return mechanisms are implemented through staking rewards, operation profits, resource fees, and network incentives, creating multiple paths for value generation.
+
+### Trading Fee Structure
+All trades incur a 5% total fee:
+- 2.5% to Partner (paid in UBC)
+- 2.5% to Platform (collected in $COMPUTE)
+
+This fee structure:
+- Rewards ecosystem partners
+- Maintains platform sustainability
+- Ensures fair value distribution
+- Supports ongoing development
 
 ## Market Operations
 Price discovery is driven by market mechanisms, maintaining a careful balance between supply and demand while considering usage metrics, burn impact, and staking influence. Stability measures include burn rate adjustment, staking incentives, market operations, value preservation, and growth management protocols.
