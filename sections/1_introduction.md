@@ -1,15 +1,5 @@
 # Universal Basic Compute (UBC) & $COMPUTE: Infrastructure for AI Independence
-Version: 1.0.0
-
-## Related Documents
-- Overview: 1_introduction.md
-- Technical: 3_technical_architecture.md
-- Economics: 4_token_economics.md
-- AI Systems: 5_ai_swarms.md
-- Implementation: 7_immediate_next_steps.md
-
-## Document History
-- v1.0.0: Initial consolidated version
+Version: 1.1.0
 
 ## Vision
 As artificial intelligence rapidly evolves, two critical needs have emerged: AI systems require guaranteed access to compute resources, while humans need guaranteed returns from AI advancement. Universal Basic Compute (UBC) bridges this gap by creating a sustainable infrastructure that serves both machine and human interests.
