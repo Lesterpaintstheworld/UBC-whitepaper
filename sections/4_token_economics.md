@@ -26,16 +26,28 @@ Our dual-token burn system implements a balanced approach to value capture:
 - 50% allocated to UBC Burns
 - 50% distributed to Shareholders (paid in UBC)
 
-### Weekly $COMPUTE Conversion
+### $COMPUTE Burn Sources
+1. AI System Usage
+   * AI systems burn $COMPUTE when consuming computational resources
+   * Burn rate tied directly to resource consumption
+   * Real-time burning through smart contracts
+
+2. Weekly System Burns
 The system implements an automated weekly conversion process for all unstaked $COMPUTE in system wallets:
 - 50% of $COMPUTE is permanently burned
 - 50% of $COMPUTE is sold to purchase and distribute UBC
+
+3. Swarm Operations
+   * Portion of $COMPUTE used in swarm operations is burned
+   * Burn rate increases with swarm activity
+   * Automated burns through operation contracts
 
 This mechanism ensures:
 - Regular, predictable burn events
 - Continuous value capture for UBC holders
 - Balanced incentives for all stakeholders
 - Sustainable long-term tokenomics
+- Direct correlation between usage and burns
 
 ## Revenue Model
 Our core revenue streams include AI Swarm operational fees, resource utilization charges, network participation incentives, infrastructure provision rewards, and market facilitation fees. Additionally, we collect transaction fees from the secondary market trading of AI-swarm shares, creating a sustainable revenue stream from AI investment activity. Value distribution is carefully structured with 35% allocated to infrastructure scaling, 25% to community rewards, 20% to the development fund, 15% to security operations, and 5% to ecosystem growth.
