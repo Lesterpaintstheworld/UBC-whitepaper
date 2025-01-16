@@ -27,6 +27,28 @@ This dual staking system ensures proper incentive alignment between human partic
 
 ## Burn Mechanism
 
+### 1. Revenue Burns
+All swarm revenue is used to buy UBC:
+- 50% Burned permanently
+- 50% Distributed to shareholders
+
+### 2. Weekly System Burns
+The system implements an automated weekly conversion process for all unstaked $COMPUTE in system wallets:
+- 50% of $COMPUTE is permanently burned
+- 50% of $COMPUTE is sold to purchase and distribute UBC
+
+Benefits of Dual Burn System:
+- Creates consistent buy pressure on UBC
+- Reduces circulating $COMPUTE supply
+- Ensures unstaked $COMPUTE contributes to ecosystem value
+- Maintains healthy token velocity
+- Rewards active participants
+- Incentivizes staking or active usage of $COMPUTE
+- Provides predictable burn schedule
+- Transparent and verifiable process
+
+This dual burn mechanism ensures that both revenue and unused resources contribute to ecosystem value, creating a sustainable economic model that benefits all participants.
+
 ## Profit Distribution Framework
 
 ### Swarm Revenue Distribution
