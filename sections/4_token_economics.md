@@ -109,6 +109,23 @@ Benefits of this structure:
 - Simpler accounting and distribution
 - Supports UBC price appreciation
 
+### Trading Fee Structure
+All trades incur a 5% total fee, collected in UBC:
+- 2.5% Partner Fee
+  * Collected directly in UBC
+  * Distributed to partners weekly
+- 2.5% Platform Fee
+  * Collected in UBC
+  * Used for platform operations and development
+
+Benefits of this structure:
+- No $COMPUTE sell pressure
+- Clean separation of utility and value capture
+- $COMPUTE remains purely for compute resources
+- UBC captures all fee value
+- Simpler accounting and distribution
+- Supports UBC price appreciation
+
 ## Market Operations
 Price discovery is driven by market mechanisms, maintaining a careful balance between supply and demand while considering usage metrics, burn impact, and staking influence. Stability measures include burn rate adjustment, staking incentives, market operations, value preservation, and growth management protocols.
 
