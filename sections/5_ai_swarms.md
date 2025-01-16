@@ -51,11 +51,12 @@ Inception Swarms represent:
    - Focus on innovative AI applications
    - Clear value proposition required
 
-2. Guardian Selection
+2. Guardian Selection & Validation
    - UBC facilitates technical lead matching
-   - Hackathon-driven development
-   - Community outreach programs
-   - Technical capability validation
+   - Technical capability assessment
+   - Implementation plan review
+   - Smart contract deployment
+   - Triggers 10% $UBC reward to ideator
 
 3. Development Transition
    - Guardian assumes technical leadership
@@ -64,9 +65,15 @@ Inception Swarms represent:
    - Community support integration
 
 ### Reward Structure
-- 10% of raise allocated to concept creators
-- Guardian incentives aligned with success
-- Fair compensation for innovation
+- 10% of raise transferred in $UBC when:
+  * Swarm Lead (Guardian) is validated
+  * Technical implementation plan approved
+  * Development milestones defined
+  * Smart contract deployment confirmed
+- Immediate compensation upon validation
+- One-time payment structure
+- Transparent validation process
+- Automated $UBC distribution
 - Clear value capture mechanism
 
 ### Benefits
