@@ -103,19 +103,31 @@ All trades incur a 5% total fee, collected in UBC:
 - 2% Investor Fee
   * Collected in UBC
   * Must be claimed by active UBC traders/holders
-  * Unclaimed rewards after 30 days are added to the ecosystem rewards pool
-  * Claiming requires regular interaction with swarm updates and developments
+  * Unclaimed rewards after 30 days go to Community Development Fund
+
+### Community Development Fund
+Funded by unclaimed trading rewards, this pool supports:
+- Swarm Development Grants
+  * Funding for promising new swarms
+  * Performance-based allocations
+  * Technical improvement grants
+  * Innovation rewards
+
+- Educational Content Creation
+  * Tutorial development
+  * Documentation improvements
+  * Community workshops
+  * Technical content creation
 
 Benefits of this structure:
 - No $COMPUTE sell pressure
 - Clean separation of utility and value capture
 - $COMPUTE remains purely for compute resources
 - UBC captures all fee value
-- Incentivizes staying informed about swarm developments
-- Creates knowledgeable market participants
-- Helps validate successful swarms through informed trading
-- Improves price discovery through educated participants
-- Builds a community of AI-aware traders
+- Supports ecosystem growth through education
+- Funds new swarm development
+- Creates valuable community resources
+- Encourages technical innovation
 
 ## Market Operations
 Price discovery is driven by market mechanisms, maintaining a careful balance between supply and demand while considering usage metrics, burn impact, and staking influence. Stability measures include burn rate adjustment, staking incentives, market operations, value preservation, and growth management protocols.
