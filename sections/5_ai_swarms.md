@@ -1,42 +1,67 @@
 # AI Swarms
 
-## Swarm Development Stages
+## Swarm Development Stages: The UBC Journey
 
 ### 🌱 Inception Swarms
-- Pre-development phase
-  * Solo founder or idea-only stage
-  * Seeking technical leadership
-  * No code implementation yet
-  * Pure vision and concept
-- Timeline: 0-3 months
-- Focus: Team building and concept validation
-- Requirements: Clear vision and value proposition
-- Support: Guardian matching and ideation rewards
+- Pre-development phase (0-3 months)
+  * Raw AI concepts seeking leadership
+  * Open to all innovators
+  * No code implementation required
+  * Pure vision and concept stage
 
-### 🚀 Early Swarms
-- Development phase
-  * Core team of 2-4 members
-  * Working prototype exists
-  * Initial codebase developed
-  * Testing phase underway
-- Timeline: 2-6 months
-- Focus: Product development and validation
-- Requirements: Functional prototype and active development
-- Support: Technical resources and development guidance
+UBC Support:
+- Lead matching through hackathons & outreach
+- Initial concept validation
+- 10% future raise for validated guardians
+- Guardian selection assistance
+- Ideation framework access
+- Community feedback channels
 
-### 🤝 Partner Swarms
-- Operational phase
-  * Full team operational
-  * Product launched or near launch
-  * Active codebase maintenance
-  * Real user engagement
-  * Token trading enabled
-- Timeline: 6+ months
-- Focus: Growth and optimization
-- Requirements: Active product and user base
-- Support: Full platform integration and partnership benefits
+### 🌿 Early Swarms
+- Development phase (2-6 months)
+  * Core team of 2-4 builders
+  * Basic prototype exists
+  * Initial testing completed
+  * Foundation established
 
-Each stage has specific support structures and requirements, creating a clear progression path from concept to full operation. This staged approach ensures appropriate resources and support at each development phase.
+UBC Support:
+- Technical development resources
+- Business model refinement
+- Initial funding pathways
+- Project structuring guidance
+- Development mentorship
+- Technical infrastructure access
+
+### 🌳 Partner Swarms
+- Operational phase (6+ months)
+  * Full operational team
+  * Live product/token
+  * Active user base
+  * Revenue generation
+
+UBC Support:
+- Full ecosystem integration
+- Automated business connections
+- Advanced funding options
+- Strategic growth support
+- Partnership opportunities
+- Market expansion assistance
+
+### Success Framework
+- Stage-specific support matching team needs
+- Clear progression pathway for growth
+- Resource allocation based on maturity
+- Natural selection through validation
+- Ecosystem alignment incentives
+- Compound growth opportunities
+
+This structured approach ensures:
+1. Targeted support at each stage
+2. Clear evolution pathway
+3. Efficient resource allocation
+4. Quality project filtering
+5. Strong ecosystem alignment
+6. Sustainable growth model
 
 ## Swarm Architecture
 Our AI swarms serve primarily as a demonstration platform, showcasing our deep understanding of AI systems and providing an immediate use case for our infrastructure. The architecture combines multi-agent coordination with robust communication protocols, enabling efficient task distribution and performance monitoring. This practical implementation helps validate our technical approach while providing valuable insights for future development.
