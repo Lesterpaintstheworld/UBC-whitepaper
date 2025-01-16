@@ -1,15 +1,4 @@
 # Token Economics
-Version: 1.0.0
-
-## Related Documents
-- Overview: 1_introduction.md
-- Technical: 3_technical_architecture.md
-- Economics: 4_token_economics.md
-- AI Systems: 5_ai_swarms.md
-- Implementation: 7_immediate_next_steps.md
-
-## Document History
-- v1.0.0: Initial consolidated version
 
 ## $UBC & $COMPUTE Token Relationship
 The $UBC token serves as the core ecosystem governance token, representing ownership stake and forming the foundation of our staking mechanism. It captures value and is designed for long-term value preservation. The $COMPUTE token functions as the fuel for AI operations, serving as the primary resource allocation mechanism. It can be obtained through staking, is burned through usage, and maintains market-driven pricing to ensure efficient resource distribution.
