@@ -12,11 +12,11 @@ add_to_whitepaper() {
     
     # Add a newline before each section except the first
     if [ -s output/whitepaper.md ]; then
-        echo -e "\n" >> whitepaper.md
+        echo -e "\n" >> output/whitepaper.md
     fi
     
     # Add the content
-    cat "$1" >> whitepaper.md
+    cat "sections/$1" >> output/whitepaper.md
 }
 
 # Add files in the correct order
