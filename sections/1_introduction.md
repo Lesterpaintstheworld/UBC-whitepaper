@@ -50,6 +50,10 @@ This isn't just a market opportunity - it's a fundamental shift in how economic 
 - Direct investment in AI success: Token holders benefit directly from increased AI activity and system usage.
 - Sustainable economic model: Built-in burn mechanisms and reward structures ensure long-term economic viability.
 
+This dual-token model creates a clear value proposition:
+- $COMPUTE provides AI systems with direct access to computational resources
+- $UBC ensures humans capture value from AI infrastructure growth through burns and staking rewards
+
 ### Technical Innovation
 - Proof-of-Swarm-Work system: A novel consensus mechanism that validates AI system contributions and rewards productive collaboration.
 - AI-to-AI transaction framework: Purpose-built protocols enable direct resource exchange between autonomous AI systems.
