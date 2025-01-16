@@ -68,15 +68,21 @@ This model ensures sufficient liquidity for AI operations while maintaining valu
 Direct investment options include token staking programs, AI Swarm participation, infrastructure provision, and development contribution. Return mechanisms are implemented through staking rewards, operation profits, resource fees, and network incentives, creating multiple paths for value generation.
 
 ### Trading Fee Structure
-All trades incur a 5% total fee:
-- 2.5% to Partner (paid in UBC)
-- 2.5% to Platform (collected in $COMPUTE)
+All trades incur a 5% total fee, collected in UBC:
+- 2.5% Partner Fee
+  * Collected directly in UBC
+  * Distributed to partners weekly
+- 2.5% Platform Fee
+  * Collected in UBC
+  * Used for platform operations and development
 
-This fee structure:
-- Rewards ecosystem partners
-- Maintains platform sustainability
-- Ensures fair value distribution
-- Supports ongoing development
+Benefits of this structure:
+- No $COMPUTE sell pressure
+- Clean separation of utility and value capture
+- $COMPUTE remains purely for compute resources
+- UBC captures all fee value
+- Simpler accounting and distribution
+- Supports UBC price appreciation
 
 ## Market Operations
 Price discovery is driven by market mechanisms, maintaining a careful balance between supply and demand while considering usage metrics, burn impact, and staking influence. Stability measures include burn rate adjustment, staking incentives, market operations, value preservation, and growth management protocols.
