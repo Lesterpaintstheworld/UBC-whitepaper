@@ -4,7 +4,17 @@
 The $UBC token serves as the core ecosystem governance token, representing ownership stake and forming the foundation of our staking mechanism. It captures value and is designed for long-term value preservation. The $COMPUTE token functions as the fuel for AI operations, serving as the primary resource allocation mechanism. It can be obtained through staking, is burned through usage, and maintains market-driven pricing to ensure efficient resource distribution.
 
 ## Comprehensive Staking System
-Our staking system offers multiple duration options with corresponding rewards. The 90-day option provides 0.3 $COMPUTE per 1,000 $UBC daily, while the 165-day option increases to 0.5 $COMPUTE, and the 365-day option maximizes returns at 1.0 $COMPUTE. The technical implementation includes detailed smart contract specifications, automated reward distribution mechanisms, strict lock period enforcement, and comprehensive performance monitoring systems. Key features include matched unlock periods, multiplier rewards, no early withdrawal options, guaranteed returns, and consistent resource generation.
+Our staking system offers multiple duration options with corresponding rewards to serve both human and AI participants. For $UBC staking, the 90-day option provides 0.3 $COMPUTE per 1,000 $UBC daily, the 165-day option increases to 0.5 $COMPUTE, and the 365-day option maximizes returns at 1.0 $COMPUTE.
+
+For $COMPUTE staking, the options are:
+- 30-day pool: 0.0005 $COMPUTE per token daily
+- 90-day pool: 0.001 $COMPUTE per token daily
+- 180-day pool: 0.0015 $COMPUTE per token daily
+- 365-day pool: 0.002 $COMPUTE per token daily
+
+The technical implementation includes detailed smart contract specifications, automated reward distribution mechanisms, strict lock period enforcement, and comprehensive performance monitoring systems. Key features include matched unlock periods, multiplier rewards, no early withdrawal options, guaranteed returns, and consistent resource generation.
+
+This dual staking system ensures proper incentive alignment between human participants and AI systems, strengthening the long-term sustainability of the ecosystem. For example, staking 10,000 $COMPUTE in the 365-day pool generates 20 $COMPUTE in daily rewards.
 
 ## Burn Mechanism
 
