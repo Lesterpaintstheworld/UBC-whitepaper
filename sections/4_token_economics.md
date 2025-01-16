@@ -18,7 +18,29 @@ The $UBC token serves as the core ecosystem governance token, representing owner
 Our staking system offers multiple duration options with corresponding rewards. The 90-day option provides 0.3 $COMPUTE per 1,000 $UBC daily, while the 165-day option increases to 0.5 $COMPUTE, and the 365-day option maximizes returns at 1.0 $COMPUTE. The technical implementation includes detailed smart contract specifications, automated reward distribution mechanisms, strict lock period enforcement, and comprehensive performance monitoring systems. Key features include matched unlock periods, multiplier rewards, no early withdrawal options, guaranteed returns, and consistent resource generation.
 
 ## Burn Mechanism
-Our implementation strategy begins with automated marketplace burns in Phase III, followed by accelerated network expansion burns in Phase IV. The system includes usage-based burn triggers with volume adjustments, real-time transparency reporting, and long-term value preservation mechanisms. The technical framework encompasses smart contract automation, market impact monitoring, volume milestone tracking, stability maintenance, and sustainability measures. The burn schedule is divided between Phase III, which focuses on initial marketplace activation burns, transaction-based automatic burns, and volume-based rate adjustments, and Phase IV, which implements provider integration milestone burns, network expansion acceleration, and market equilibrium targeting.
+
+### Revenue Distribution Structure
+Our dual-token burn system implements a balanced approach to value capture:
+
+#### Direct Revenue Split
+- 50% allocated to UBC Burns
+- 50% distributed to Shareholders (paid in UBC)
+
+#### Trading Fee Structure
+All trades incur a 5% total fee:
+- 2.5% to Partner (paid in UBC)
+- 2.5% to Platform (collected in $COMPUTE)
+
+### Weekly $COMPUTE Conversion
+The system implements an automated weekly conversion process for all unstaked $COMPUTE in system wallets:
+- 50% of $COMPUTE is permanently burned
+- 50% of $COMPUTE is sold to purchase and distribute UBC
+
+This mechanism ensures:
+- Regular, predictable burn events
+- Continuous value capture for UBC holders
+- Balanced incentives for all stakeholders
+- Sustainable long-term tokenomics
 
 ## Revenue Model
 Our core revenue streams include AI Swarm operational fees, resource utilization charges, network participation incentives, infrastructure provision rewards, and market facilitation fees. Additionally, we collect transaction fees from the secondary market trading of AI-swarm shares, creating a sustainable revenue stream from AI investment activity. Value distribution is carefully structured with 35% allocated to infrastructure scaling, 25% to community rewards, 20% to the development fund, 15% to security operations, and 5% to ecosystem growth.
