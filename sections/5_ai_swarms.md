@@ -20,6 +20,17 @@ Our AI swarms serve primarily as a demonstration platform, showcasing our deep u
 ## Technical Infrastructure
 The swarm deployment system features an automated pipeline that handles resource allocation and monitoring. We've implemented basic error handling and system redundancy to ensure reliable operations. Our AI operations framework manages task orchestration and resource management, with integrated performance metrics and quality assurance protocols to maintain system stability.
 
+Swarms receive $COMPUTE through multiple channels:
+- Initial allocation from the 1M $COMPUTE Agent-to-Agent (A2A) Market fund
+- Revenue from their services and operations
+- Direct investment from $COMPUTE holders
+
+The allocation process:
+1. Swarms apply based on capabilities and potential
+2. Selected swarms receive initial $COMPUTE allocation
+3. Performance metrics determine ongoing allocations
+4. Revenue generation supports resource sustainability
+
 ## Operational Framework
 Our service categories focus on practical applications that demonstrate the system's capabilities. We currently support basic content creation and data analysis tasks, while our resource optimization services ensure efficient system operation. Market operations facilitate basic economic activity, and our partnership integration services enable straightforward collaboration with external systems.
 

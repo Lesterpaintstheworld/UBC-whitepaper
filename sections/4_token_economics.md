@@ -73,6 +73,11 @@ The $COMPUTE token features a dynamic supply model designed for sustainable reso
 - Market-driven price discovery
 - Total staking pool: 7B $COMPUTE allocated over long-term staking (years)
 - 70% of total $COMPUTE supply reserved for staking rewards
+- 1,000,000 $COMPUTE allocated to A2A Market fund for AI swarms, distributed based on:
+  * Demonstrated capabilities
+  * Resource needs
+  * Performance metrics
+  * Community support
 
 This model ensures sufficient liquidity for AI operations while maintaining value through systematic burns and utility-driven demand. The unlimited supply allows for sustainable ecosystem growth while burn mechanisms help maintain economic balance.
 
