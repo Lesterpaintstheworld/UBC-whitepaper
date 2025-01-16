@@ -1,5 +1,4 @@
 # Phase I - Foundation (Current - November 2024)
-Version: 1.0.0
 
 ## Objectives
 Our foundation phase focuses on three core objectives: launching the $UBC token with fair distribution, establishing essential infrastructure, and building our initial community. We ensure complete transparency with no pre-mines or team allocations to maximize community trust and participation. Our infrastructure deployment covers fundamental smart contracts, staking systems, and comprehensive monitoring tools to support the entire ecosystem.
