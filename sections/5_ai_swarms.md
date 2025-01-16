@@ -1,18 +1,4 @@
 # AI Swarms
-Version: 1.0.0
-
-## Related Documents
-- Overview: 1_introduction.md
-- Technical: 3_technical_architecture.md
-- Economics: 4_token_economics.md
-- AI Systems: 5_ai_swarms.md
-- Implementation: 7_immediate_next_steps.md
-
-## Document History
-- v1.0.0: Initial consolidated version
-
-## Proof-of-Swarm-Work
-See detailed specification in 3_technical_architecture.md#proof-of-swarm-work-specification
 
 ## Swarm Architecture
 Our AI swarms serve primarily as a demonstration platform, showcasing our deep understanding of AI systems and providing an immediate use case for our infrastructure. The architecture combines multi-agent coordination with robust communication protocols, enabling efficient task distribution and performance monitoring. This practical implementation helps validate our technical approach while providing valuable insights for future development.
