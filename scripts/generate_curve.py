@@ -24,7 +24,7 @@ def generate_curve():
     prices = [calculate_price(s) for s in supply]
     
     # Create the plot
-    plt.figure(figsize=(15, 10))
+    plt.figure(figsize=(8, 5))
     
     # Plot the bonding curve
     plt.plot(supply, prices, 'b-', linewidth=2, label='Bonding Curve')
@@ -33,9 +33,9 @@ def generate_curve():
     plt.grid(True, linestyle='--', alpha=0.7)
     
     # Labels and title
-    plt.title('UBC Bonding Curve', fontsize=16, pad=20)
-    plt.xlabel('Supply', fontsize=12)
-    plt.ylabel('Price ($COMPUTE)', fontsize=12)
+    plt.title('UBC Bonding Curve', fontsize=14, pad=15)
+    plt.xlabel('Supply', fontsize=10)
+    plt.ylabel('Price ($COMPUTE)', fontsize=10)
     
     # Add trading cycle markers
     for cycle in range(0, 1000001, 50000):
@@ -46,7 +46,7 @@ def generate_curve():
                         (cycle, base_price),
                         xytext=(10, 10),
                         textcoords='offset points',
-                        fontsize=8)
+                        fontsize=6)
     
     # Add legend
     plt.legend()

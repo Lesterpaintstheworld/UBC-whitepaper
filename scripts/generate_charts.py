@@ -6,7 +6,7 @@ def create_revenue_charts():
     autonomy_levels = [0, 50, 100]
     
     for autonomy in autonomy_levels:
-        plt.figure(figsize=(10, 8))
+        plt.figure(figsize=(6, 4))
         
         # Calculate distributions based on autonomy
         if autonomy == 0:
@@ -29,7 +29,7 @@ def create_revenue_charts():
 
 def create_fee_charts():
     # Primary Market Fees
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(6, 4))
     primary_sizes = [2.5, 2.5]  # [Partner, Platform]
     primary_labels = ['Partner Fee (2.5%)', 'Platform Fee (2.5%)']
     colors = ['#ff9999', '#66b3ff']
@@ -41,7 +41,7 @@ def create_fee_charts():
     plt.close()
     
     # Secondary Market Fees
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(6, 4))
     secondary_sizes = [2, 1, 2]  # [Partner, Platform, Investor]
     secondary_labels = ['Partner Fee (2%)', 'Platform Fee (1%)', 'Investor Fee (2%)']
     colors = ['#ff9999', '#66b3ff', '#99ff99']
