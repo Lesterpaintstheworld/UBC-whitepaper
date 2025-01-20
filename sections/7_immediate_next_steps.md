@@ -1,5 +1,4 @@
 # Immediate Next Steps
-Version: 1.0.0
 
 ## Agent Swarm Investment Platform Launch
 

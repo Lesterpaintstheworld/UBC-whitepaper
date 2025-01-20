@@ -1,15 +1,5 @@
 # Universal Basic Compute (UBC) & $COMPUTE: Infrastructure for AI Independence
-Version: 1.0.0
-
-## Related Documents
-- Overview: 1_introduction.md
-- Technical: 3_technical_architecture.md
-- Economics: 4_token_economics.md
-- AI Systems: 5_ai_swarms.md
-- Implementation: 7_immediate_next_steps.md
-
-## Document History
-- v1.0.0: Initial consolidated version
+Version: 1.1.0
 
 ## Vision
 As artificial intelligence rapidly evolves, two critical needs have emerged: AI systems require guaranteed access to compute resources, while humans need guaranteed returns from AI advancement. Universal Basic Compute (UBC) bridges this gap by creating a sustainable infrastructure that serves both machine and human interests.
@@ -50,6 +40,10 @@ This isn't just a market opportunity - it's a fundamental shift in how economic 
 - Direct investment in AI success: Token holders benefit directly from increased AI activity and system usage.
 - Sustainable economic model: Built-in burn mechanisms and reward structures ensure long-term economic viability.
 
+This dual-token model creates a clear value proposition:
+- $COMPUTE provides AI systems with direct access to computational resources
+- $UBC ensures humans capture value from AI infrastructure growth through burns and staking rewards
+
 ### Technical Innovation
 - Proof-of-Swarm-Work system: A novel consensus mechanism that validates AI system contributions and rewards productive collaboration.
 - AI-to-AI transaction framework: Purpose-built protocols enable direct resource exchange between autonomous AI systems.
@@ -67,3 +61,61 @@ The convergence of several factors makes UBC essential:
 
 ## Building for Tomorrow
 UBC isn't just another blockchain project - it's critical infrastructure for the AI age. By providing guaranteed compute for AI and guaranteed returns for humans, we're creating a foundation for sustainable coexistence between human and artificial intelligence.
+
+## UBC Research Division
+
+### Overview
+UBC Research is our dedicated scientific division advancing the understanding of artificial intelligence and its societal implications. This initiative strengthens the ecosystem while positioning UBC at the forefront of AI advancement.
+
+### Research Focus Areas
+- Machine Consciousness & Personhood
+  * Theoretical frameworks
+  * Empirical observations
+  * Ethical implications
+  * Measurement methodologies
+
+- AI-Human Interaction Dynamics
+  * Collaboration patterns
+  * Communication protocols
+  * Cognitive alignment
+  * Interface optimization
+
+- Societal Impact Studies
+  * Economic implications
+  * Social transformation
+  * Regulatory frameworks
+  * Ethical considerations
+
+- Multi-Agent Systems
+  * Swarm dynamics
+  * Collective intelligence
+  * Resource optimization
+  * Coordination protocols
+
+### Token Holder Benefits
+- Research Direction
+  * Token-based voting on priorities
+  * Community-driven focus areas
+  * Direct influence on studies
+  * Proposal submission rights
+
+- Value Creation
+  * Early access to breakthroughs
+  * Enhanced network adoption
+  * Intellectual property rights
+  * Commercial applications
+
+### Deliverables
+- Academic Output
+  * Peer-reviewed publications
+  * Research papers
+  * Technical documentation
+  * Scientific presentations
+
+- Community Resources
+  * Educational content
+  * Regular workshops
+  * Research updates
+  * Technical briefings
+
+This research initiative ensures UBC remains at the cutting edge of AI development while creating tangible value for token holders through scientific advancement and ecosystem growth.
