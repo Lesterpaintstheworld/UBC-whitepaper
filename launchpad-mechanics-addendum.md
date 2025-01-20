@@ -19,7 +19,8 @@ The primary market uses a bonding curve to create a predictable and transparent 
 
 ### Initial Parameters
 Each swarm launch begins with carefully calibrated parameters that balance accessibility with long-term value creation:
-- Starting Price: 10 $COMPUTE provides an accessible entry point while maintaining perceived value
+- Starting Price: 1 $COMPUTE provides an accessible entry point while maintaining perceived value
+- Compute to USD Rate: $0.025 per $COMPUTE
 - Growth Rate: The 35% exponential increase per 50,000 shares creates strong price appreciation without excessive early barriers
 - Maximum Supply: 100,000,000 shares per swarm enables significant participation while maintaining scarcity
 - Trading Cycle Length: 50,000 share intervals create regular trading opportunities
@@ -27,7 +28,7 @@ Each swarm launch begins with carefully calibrated parameters that balance acces
 
 ### Price Discovery
 The bonding curve implements an exponential growth mechanism that creates predictable yet attractive price movement:
-- The base formula (Price = 10 * (1.35)^(supply/50000)) ensures systematic price increases
+- The base formula (Price = 1 * (1.35)^(supply/50000)) ensures systematic price increases
 - Each 50,000 share cycle marks a clear trading interval with a 35% base price increase
 - Natural market cycles of ±30% create regular trading opportunities around the base price
 - Market activity continuously refines price discovery within these parameters
