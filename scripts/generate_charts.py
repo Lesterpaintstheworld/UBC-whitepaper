@@ -6,68 +6,68 @@ def create_revenue_charts():
     autonomy_levels = [0, 50, 100]
     
     for autonomy in autonomy_levels:
-        plt.figure(figsize=(6, 4))
+        plt.figure(figsize=(4, 2.5))  # Smaller size
         
         # Calculate distributions based on autonomy
         if autonomy == 0:
-            sizes = [50, 50, 0, 0]  # [UBC Burn, Team Share, Partner Burn, Shareholder Share]
-            labels = ['UBC Burn', 'Team Share', 'Partner Token Burn', 'Shareholder Share']
+            sizes = [50, 50, 0, 0]
+            labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']  # Shorter labels
         elif autonomy == 50:
             sizes = [25, 25, 25, 25]
-            labels = ['UBC Burn', 'Team Share', 'Partner Token Burn', 'Shareholder Share']
+            labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']
         else:  # 100% autonomy
             sizes = [0, 0, 50, 50]
-            labels = ['UBC Burn', 'Team Share', 'Partner Token Burn', 'Shareholder Share']
+            labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']
         
-        colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']
+        # More muted colors
+        colors = ['#e6b3b3', '#b3d1ff', '#b3e6b3', '#ffe6b3']
         
-        plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
-        plt.title(f'Revenue Distribution at {autonomy}% Autonomy', pad=20)
+        plt.pie(sizes, labels=labels, colors=colors, autopct='%1.0f%%', startangle=90)
+        plt.title(f'{autonomy}% Autonomy', pad=10, fontsize=10)
         plt.axis('equal')
         plt.savefig(f'revenue_distribution_{autonomy}.png', bbox_inches='tight', dpi=300)
         plt.close()
 
 def create_fee_charts():
     # Primary Market Fees
-    plt.figure(figsize=(6, 4))
-    primary_sizes = [2.5, 2.5]  # [Partner, Platform]
-    primary_labels = ['Partner Fee (2.5%)', 'Platform Fee (2.5%)']
-    colors = ['#ff9999', '#66b3ff']
+    plt.figure(figsize=(4, 2.5))
+    primary_sizes = [2.5, 2.5]
+    primary_labels = ['Partner', 'Platform']  # Shorter labels
+    colors = ['#e6b3b3', '#b3d1ff']
     
     plt.pie(primary_sizes, labels=primary_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Primary Market Fee Distribution', pad=20)
+    plt.title('Primary Market Fees', pad=10, fontsize=10)
     plt.axis('equal')
     plt.savefig('primary_market_fees.png', bbox_inches='tight', dpi=300)
     plt.close()
     
     # Secondary Market Fees
-    plt.figure(figsize=(6, 4))
-    secondary_sizes = [2, 1, 2]  # [Partner, Platform, Investor]
-    secondary_labels = ['Partner Fee (2%)', 'Platform Fee (1%)', 'Investor Fee (2%)']
-    colors = ['#ff9999', '#66b3ff', '#99ff99']
+    plt.figure(figsize=(4, 2.5))
+    secondary_sizes = [2, 1, 2]
+    secondary_labels = ['Partner', 'Platform', 'Investor']  # Shorter labels
+    colors = ['#e6b3b3', '#b3d1ff', '#b3e6b3']
     
     plt.pie(secondary_sizes, labels=secondary_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Secondary Market Fee Distribution', pad=20)
+    plt.title('Secondary Market Fees', pad=10, fontsize=10)
     plt.axis('equal')
     plt.savefig('secondary_market_fees.png', bbox_inches='tight', dpi=300)
     plt.close()
 
 def create_compute_burn_chart():
-    # Weekly Compute Burn System
-    plt.figure(figsize=(10, 8))
-    burn_sizes = [50, 50]  # [Burn, UBC Purchase]
-    burn_labels = ['Permanent Burn (50%)', 'UBC Purchase (50%)']
-    colors = ['#ff9999', '#66b3ff']
+    plt.figure(figsize=(4, 2.5))
+    burn_sizes = [50, 50]
+    burn_labels = ['Burn', 'UBC Purchase']  # Shorter labels
+    colors = ['#e6b3b3', '#b3d1ff']
     
-    plt.pie(burn_sizes, labels=burn_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Weekly Unstaked $COMPUTE Distribution', pad=20)
+    plt.pie(burn_sizes, labels=burn_labels, colors=colors, autopct='%1.0f%%', startangle=90)
+    plt.title('Weekly $COMPUTE Distribution', pad=10, fontsize=10)
     plt.axis('equal')
     plt.savefig('compute_burn_system.png', bbox_inches='tight', dpi=300)
     plt.close()
 
 def main():
     # Set default style parameters
-    plt.rcParams['font.size'] = 12
+    plt.rcParams['font.size'] = 8  # Smaller default font
     plt.rcParams['font.family'] = 'sans-serif'
     plt.rcParams['figure.facecolor'] = 'white'
     

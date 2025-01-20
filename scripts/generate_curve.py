@@ -24,29 +24,30 @@ def generate_curve():
     prices = [calculate_price(s) for s in supply]
     
     # Create the plot
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(5, 3))  # Smaller size
     
     # Plot the bonding curve
-    plt.plot(supply, prices, 'b-', linewidth=2, label='Bonding Curve')
+    plt.plot(supply, prices, 'b-', linewidth=1.5, label='Bonding Curve', color='#4d94ff')
     
     # Add grid
-    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.grid(True, linestyle='--', alpha=0.3)
     
     # Labels and title
-    plt.title('UBC Bonding Curve', fontsize=14, pad=15)
-    plt.xlabel('Supply', fontsize=10)
-    plt.ylabel('Price ($COMPUTE)', fontsize=10)
+    plt.title('UBC Bonding Curve', fontsize=10, pad=10)
+    plt.xlabel('Supply', fontsize=8)
+    plt.ylabel('Price', fontsize=8)
     
-    # Add trading cycle markers
-    for cycle in range(0, 1000001, 50000):
+    # Add trading cycle markers more sparsely (every other cycle)
+    for cycle in range(0, 1000001, 100000):
         if cycle < len(supply):
             base_price = calculate_price(cycle)
-            plt.axvline(x=cycle, color='r', linestyle='--', alpha=0.3)
-            plt.annotate(f'Cycle {cycle//50000}\n${base_price:.2f}', 
-                        (cycle, base_price),
-                        xytext=(10, 10),
-                        textcoords='offset points',
-                        fontsize=6)
+            plt.axvline(x=cycle, color='#ff9999', linestyle='--', alpha=0.2)
+            if cycle % 200000 == 0:  # Label fewer points to avoid overlap
+                plt.annotate(f'${base_price:.1f}', 
+                            (cycle, base_price),
+                            xytext=(5, 5),
+                            textcoords='offset points',
+                            fontsize=6)
     
     # Add legend
     plt.legend()
@@ -56,6 +57,8 @@ def generate_curve():
     plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{int(x):,}'))
     
     # Save the plot
+    # Tighter layout
+    plt.tight_layout()
     plt.savefig('bonding_curve.png', dpi=300, bbox_inches='tight')
     plt.close()
 
