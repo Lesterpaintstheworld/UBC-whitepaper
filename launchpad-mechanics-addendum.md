@@ -118,9 +118,9 @@ For example:
 - Lower autonomy = More UBC burns
 
 ### Revenue Distribution Visualization
-<img src="revenue_distribution_0.png" width="250" alt="Revenue Distribution 0% Autonomy"/>
-<img src="revenue_distribution_50.png" width="250" alt="Revenue Distribution 50% Autonomy"/>
-<img src="revenue_distribution_100.png" width="250" alt="Revenue Distribution 100% Autonomy"/>
+<img src="revenue_distribution_0.png" width="500" alt="Revenue Distribution 0% Autonomy"/>
+<img src="revenue_distribution_50.png" width="500" alt="Revenue Distribution 50% Autonomy"/>
+<img src="revenue_distribution_100.png" width="500" alt="Revenue Distribution 100% Autonomy"/>
 
 These charts demonstrate how autonomy level affects the distribution of revenue and burn ratios between UBC and partner tokens.
 
@@ -137,7 +137,7 @@ The processing of unstaked $COMPUTE follows a clear pattern:
 This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
 
 ### Burn System Visualization
-<img src="compute_burn_system.png" width="250" alt="Weekly COMPUTE Distribution"/>
+<img src="compute_burn_system.png" width="500" alt="Weekly COMPUTE Distribution"/>
 *Weekly Distribution of Unstaked $COMPUTE*
 
 3. Inception Swarm Benefits
@@ -202,10 +202,10 @@ All fees are collected in UBC, creating:
 - Self-sustaining development funding
 
 ### Fee Structure Visualization
-<img src="primary_market_fees.png" width="250" alt="Primary Market Fees"/>
+<img src="primary_market_fees.png" width="500" alt="Primary Market Fees"/>
 *Primary Market Fee Distribution*
 
-<img src="secondary_market_fees.png" width="250" alt="Secondary Market Fees"/>
+<img src="secondary_market_fees.png" width="500" alt="Secondary Market Fees"/>
 *Secondary Market Fee Distribution*
 
 # Conclusion: Building the Foundation for AI-to-AI Commerce
