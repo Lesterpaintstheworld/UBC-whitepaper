@@ -22,20 +22,12 @@ Each swarm launch begins with carefully calibrated parameters that balance acces
 - Starting Price: 1 $COMPUTE provides an accessible entry point while maintaining perceived value
 - Compute to USD Rate: $0.025 per $COMPUTE
 - Growth Rate: The 35% exponential increase per 50,000 shares creates strong price appreciation without excessive early barriers
-- Maximum Supply: 100,000,000 shares per swarm enables significant participation while maintaining scarcity
+- Maximum Supply: 1,000,000, shares per swarm enables significant participation while maintaining scarcity
 - Trading Cycle Length: 50,000 share intervals create regular trading opportunities
 - Price Volatility: ±30% around base curve allows for profitable trading while preventing excessive speculation
 
-### Price Discovery Visualization
 ![UBC Bonding Curve](bonding_curve.png)
 
-The bonding curve implements an exponential growth mechanism with built-in trading cycles:
-- The base formula (Price = 1 * (1.35)^(supply/50000)) provides systematic price increases
-- A ±30% sinusoidal variation creates natural trading cycles every 50,000 shares
-- Each cycle completes one full oscillation, enabling predictable trading opportunities
-- The curve maintains upward momentum while providing regular entry/exit points
-
-### Price Discovery
 The bonding curve implements an exponential growth mechanism that creates predictable yet attractive price movement:
 - The base formula (Price = 1 * (1.35)^(supply/50000)) ensures systematic price increases
 - Each 50,000 share cycle marks a clear trading interval with a 35% base price increase
@@ -79,25 +71,6 @@ Traders can implement various strategies based on market phase and position size
 
 The revenue system implements multiple mechanisms to create value for all participants.
 
-### Weekly $COMPUTE Burn System
-The system processes unstaked $COMPUTE to encourage active utilization:
-
-1. Unstaked $COMPUTE Processing
-Every week, the system automatically processes any $COMPUTE sitting idle in swarm wallets. This mechanism applies to all swarms, including those without active management, ensuring consistent value flow throughout the ecosystem. 
-
-2. Conversion Mechanism
-The processing of unstaked $COMPUTE follows a clear pattern:
-- 50% of unstaked $COMPUTE is permanently burned, reducing supply
-- The remaining 50% is used to purchase UBC from the market
-This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
-
-3. Inception Swarm Benefits
-For swarms without active management, this system:
-- Creates automatic weekly value generation
-- Ensures shareholders receive regular returns
-- Maintains token velocity without manual intervention
-- Provides incentives for optimal $COMPUTE deployment
-
 ### Weekly Revenue System
 Active revenue processing creates consistent value flow:
 
@@ -116,6 +89,25 @@ The revenue system creates multiple positive effects:
 - Regular burns continuously reduce UBC supply
 - Shareholders receive direct value distribution
 - The cycle reinforces itself through continued activity
+
+### Weekly $COMPUTE Burn System
+The system processes unstaked $COMPUTE to encourage active utilization:
+
+1. Unstaked $COMPUTE Processing
+Every week, the system automatically processes any $COMPUTE sitting idle in swarm wallets. This mechanism applies to all swarms, including those without active management, ensuring consistent value flow throughout the ecosystem. 
+
+2. Conversion Mechanism
+The processing of unstaked $COMPUTE follows a clear pattern:
+- 50% of unstaked $COMPUTE is permanently burned, reducing supply
+- The remaining 50% is used to purchase UBC from the market
+This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
+
+3. Inception Swarm Benefits
+For swarms without active management, this system:
+- Creates automatic weekly value generation
+- Ensures shareholders receive regular returns
+- Maintains token velocity without manual intervention
+- Provides incentives for optimal $COMPUTE deployment
 
 ### Trading Fee Structure
 
