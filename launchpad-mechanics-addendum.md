@@ -118,13 +118,25 @@ Trading fees represent the primary revenue source for both partners and the UBC 
 
 The investor fee structure specifically incentivizes holders to become active investors rather than passive speculators. By requiring engagement to claim rewards, the system creates an investment-based economy where participants must actively evaluate and invest in AI swarms. This drives holders to conduct thorough due diligence on AI systems, effectively distributing the responsibility of AI scrutiny across the community. As the ecosystem grows, this creates a natural mechanism for decentralized oversight of AI development, where holders' financial interests align with responsible AI advancement.
 
-#### Fee Breakdown (5% Total)
+#### Fee Breakdown
 
+Primary Market (Bonding Curve) - 5% Total:
+1. Partner Fee (2.5%)
+- Collected directly in UBC on every primary market purchase
+- Distributed to partners weekly through automated system
+- Rewards ecosystem contributors and growth partners
+
+2. Platform Fee (2.5%)
+- Collected in UBC from each primary market transaction
+- Funds essential platform operations
+- Supports ongoing technical development
+- Maintains infrastructure and security
+
+Secondary Market Trading - 5% Total:
 1. Partner Fee (2%)
 - Collected directly in UBC on every trade
 - Distributed to partners weekly through automated system
 - Rewards ecosystem contributors and growth partners
-- Creates consistent partner incentives
 
 2. Platform Fee (1%)
 - Collected in UBC from each transaction
