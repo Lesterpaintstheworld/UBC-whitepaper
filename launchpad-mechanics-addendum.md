@@ -165,11 +165,10 @@ Secondary Market Trading - 5% Total:
 - Encourages regular platform engagement
 
 #### Community Development Fund
-The fund receives all unclaimed investor fees after the 30-day claim window:
-- Supports ecosystem growth initiatives
-- Funds community-driven projects
-- Enables strategic partnerships
-- Maintains long-term development
+The fund receives 10% of unclaimed investor fees after the 30-day claim window:
+- Supports targeted ecosystem improvements
+- Enables small-scale community projects
+- Provides supplementary development funding
 
 All fees are collected in UBC, creating:
 - Consistent buy pressure through fee collection
