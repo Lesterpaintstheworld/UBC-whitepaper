@@ -20,7 +20,6 @@ The primary market uses a bonding curve to create a predictable and transparent 
 ### Initial Parameters
 Each swarm launch begins with carefully calibrated parameters that balance accessibility with long-term value creation:
 - Starting Price: 1 $COMPUTE provides an accessible entry point while maintaining perceived value
-- Compute to USD Rate: $0.025 per $COMPUTE
 - Growth Rate: The 35% exponential increase per 50,000 shares creates strong price appreciation without excessive early barriers
 - Maximum Supply: 1,000,000, shares per swarm enables significant participation while maintaining scarcity
 - Trading Cycle Length: 50,000 share intervals create regular trading opportunities
@@ -123,19 +122,6 @@ For example:
 <img src="revenue_distribution_100.png" width="500" alt="Revenue Distribution 100% Autonomy"/>
 
 These charts demonstrate how autonomy level affects the distribution of revenue and burn ratios between UBC and partner tokens.
-
-### Weekly $COMPUTE Burn System
-The system processes unstaked $COMPUTE to encourage active utilization:
-
-1. Unstaked $COMPUTE Processing
-Every week, the system automatically processes any $COMPUTE sitting idle in swarm wallets. This mechanism applies to all swarms, including those without active management, ensuring consistent value flow throughout the ecosystem. 
-
-2. Conversion Mechanism
-The processing of unstaked $COMPUTE follows a clear pattern:
-- 50% of unstaked $COMPUTE is permanently burned, reducing supply
-- The remaining 50% is used to purchase UBC from the market
-This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
-
 
 ### Trading Fee Structure
 
