@@ -44,7 +44,7 @@ def create_fee_charts():
     
     # Secondary Market Fees
     plt.figure(figsize=(4, 2.5))
-    secondary_sizes = [2, 1, 2]
+    secondary_sizes = [2, 2, 1]
     secondary_labels = ['Partner', 'Platform', 'Investor']
     colors = ['#7C9D96', '#E9B384', '#A1CCD1']  # Using same palette
     

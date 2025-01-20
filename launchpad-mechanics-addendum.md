@@ -176,13 +176,13 @@ Secondary Market Trading - 5% Total:
 - Distributed to partners weekly through automated system
 - Rewards ecosystem contributors and growth partners
 
-2. Platform Fee (1%)
+2. Platform Fee (2%)
 - Collected in UBC from each transaction
 - Funds essential platform operations
 - Supports ongoing technical development
 - Maintains infrastructure and security
 
-3. Investor Fee (2%)
+3. Investor Fee (1%)
 - Collected in UBC from every trade
 - Claimable by active UBC traders/holders
 - 30-day window for reward claims
