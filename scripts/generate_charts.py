@@ -54,17 +54,6 @@ def create_fee_charts():
     plt.savefig('secondary_market_fees.png', bbox_inches='tight', dpi=300)
     plt.close()
 
-def create_compute_burn_chart():
-    plt.figure(figsize=(4, 2.5))
-    burn_sizes = [50, 50]
-    burn_labels = ['Burn', 'UBC Purchase']
-    colors = ['#7C9D96', '#E9B384']  # Using same palette
-    
-    plt.pie(burn_sizes, labels=burn_labels, colors=colors, autopct='%1.0f%%', startangle=90)
-    plt.title('Weekly $COMPUTE Distribution', pad=10, fontsize=10)
-    plt.axis('equal')
-    plt.savefig('compute_burn_system.png', bbox_inches='tight', dpi=300)
-    plt.close()
 
 def main():
     # Set default style parameters
@@ -75,7 +64,6 @@ def main():
     # Generate all charts
     create_revenue_charts()
     create_fee_charts()
-    create_compute_burn_chart()
 
 if __name__ == "__main__":
     main()

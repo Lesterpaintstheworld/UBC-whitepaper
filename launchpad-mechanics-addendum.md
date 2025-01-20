@@ -136,15 +136,6 @@ The processing of unstaked $COMPUTE follows a clear pattern:
 - The remaining 50% is used to purchase UBC from the market
 This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
 
-### Burn System Visualization
-<img src="compute_burn_system.png" width="500" alt="Weekly COMPUTE Distribution"/>
-
-### Weekly Distribution Benefits
-For swarms without active management, this system:
-- Creates automatic weekly value generation
-- Ensures shareholders receive regular returns
-- Maintains token velocity without manual intervention
-- Provides incentives for optimal $COMPUTE deployment
 
 ### Trading Fee Structure
 
