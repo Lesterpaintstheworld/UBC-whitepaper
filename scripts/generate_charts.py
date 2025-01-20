@@ -22,7 +22,7 @@ def create_revenue_charts():
         colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']
         
         plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
-        plt.title(f'Revenue Distribution at {autonomy}% Autonomy')
+        plt.title(f'Revenue Distribution at {autonomy}% Autonomy', pad=20)
         plt.axis('equal')
         plt.savefig(f'revenue_distribution_{autonomy}.png', bbox_inches='tight', dpi=300)
         plt.close()
@@ -35,7 +35,7 @@ def create_fee_charts():
     colors = ['#ff9999', '#66b3ff']
     
     plt.pie(primary_sizes, labels=primary_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Primary Market Fee Distribution')
+    plt.title('Primary Market Fee Distribution', pad=20)
     plt.axis('equal')
     plt.savefig('primary_market_fees.png', bbox_inches='tight', dpi=300)
     plt.close()
@@ -47,7 +47,7 @@ def create_fee_charts():
     colors = ['#ff9999', '#66b3ff', '#99ff99']
     
     plt.pie(secondary_sizes, labels=secondary_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Secondary Market Fee Distribution')
+    plt.title('Secondary Market Fee Distribution', pad=20)
     plt.axis('equal')
     plt.savefig('secondary_market_fees.png', bbox_inches='tight', dpi=300)
     plt.close()
@@ -60,14 +60,16 @@ def create_compute_burn_chart():
     colors = ['#ff9999', '#66b3ff']
     
     plt.pie(burn_sizes, labels=burn_labels, colors=colors, autopct='%1.1f%%', startangle=90)
-    plt.title('Weekly Unstaked $COMPUTE Distribution')
+    plt.title('Weekly Unstaked $COMPUTE Distribution', pad=20)
     plt.axis('equal')
     plt.savefig('compute_burn_system.png', bbox_inches='tight', dpi=300)
     plt.close()
 
 def main():
-    # Set style for all plots
-    plt.style.use('seaborn')
+    # Set default style parameters
+    plt.rcParams['font.size'] = 12
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['figure.facecolor'] = 'white'
     
     # Generate all charts
     create_revenue_charts()
