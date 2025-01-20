@@ -138,9 +138,8 @@ This mechanism forces efficient capital use by encouraging either staking or act
 
 ### Burn System Visualization
 <img src="compute_burn_system.png" width="500" alt="Weekly COMPUTE Distribution"/>
-*Weekly Distribution of Unstaked $COMPUTE*
 
-3. Inception Swarm Benefits
+### Weekly Distribution Benefits
 For swarms without active management, this system:
 - Creates automatic weekly value generation
 - Ensures shareholders receive regular returns
