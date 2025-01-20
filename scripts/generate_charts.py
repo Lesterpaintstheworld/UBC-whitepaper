@@ -2,25 +2,24 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def create_revenue_charts():
-    # Create charts for 0%, 50%, and 100% autonomy levels
     autonomy_levels = [0, 50, 100]
     
     for autonomy in autonomy_levels:
-        plt.figure(figsize=(4, 2.5))  # Smaller size
+        plt.figure(figsize=(4, 2.5))
         
         # Calculate distributions based on autonomy
         if autonomy == 0:
-            sizes = [50, 50, 0, 0]
-            labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']  # Shorter labels
+            sizes = [50, 50]  # Removed 0% shares
+            labels = ['UBC Burn', 'Team']  # Only show non-zero shares
         elif autonomy == 50:
             sizes = [25, 25, 25, 25]
             labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']
         else:  # 100% autonomy
-            sizes = [0, 0, 50, 50]
-            labels = ['UBC Burn', 'Team', 'Partner Burn', 'Shareholders']
+            sizes = [50, 50]  # Removed 0% shares
+            labels = ['Partner Burn', 'Shareholders']  # Only show non-zero shares
         
-        # More muted colors
-        colors = ['#e6b3b3', '#b3d1ff', '#b3e6b3', '#ffe6b3']
+        # More muted colors - adjust colors array to match the number of segments
+        colors = ['#e6b3b3', '#b3d1ff', '#b3e6b3', '#ffe6b3'][:len(sizes)]
         
         plt.pie(sizes, labels=labels, colors=colors, autopct='%1.0f%%', startangle=90)
         plt.title(f'{autonomy}% Autonomy', pad=10, fontsize=10)
