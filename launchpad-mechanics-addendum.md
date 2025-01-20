@@ -104,6 +104,13 @@ For example:
 - Higher autonomy = More partner token burns
 - Lower autonomy = More UBC burns
 
+### Revenue Distribution Visualization
+![Revenue Distribution 0% Autonomy](revenue_distribution_0.png)
+![Revenue Distribution 50% Autonomy](revenue_distribution_50.png)
+![Revenue Distribution 100% Autonomy](revenue_distribution_100.png)
+
+These charts demonstrate how autonomy level affects the distribution of revenue and burn ratios between UBC and partner tokens.
+
 ### Weekly $COMPUTE Burn System
 The system processes unstaked $COMPUTE to encourage active utilization:
 
@@ -115,6 +122,10 @@ The processing of unstaked $COMPUTE follows a clear pattern:
 - 50% of unstaked $COMPUTE is permanently burned, reducing supply
 - The remaining 50% is used to purchase UBC from the market
 This mechanism forces efficient capital use by encouraging either staking or active deployment of $COMPUTE.
+
+### Burn System Visualization
+![Weekly COMPUTE Distribution](compute_burn_system.png)
+*Weekly Distribution of Unstaked $COMPUTE*
 
 3. Inception Swarm Benefits
 For swarms without active management, this system:
@@ -176,6 +187,13 @@ All fees are collected in UBC, creating:
 - Clear value flow to ecosystem participants
 - Transparent reward distribution
 - Self-sustaining development funding
+
+### Fee Structure Visualization
+![Primary Market Fees](primary_market_fees.png)
+*Primary Market Fee Distribution*
+
+![Secondary Market Fees](secondary_market_fees.png)
+*Secondary Market Fee Distribution*
 
 # Conclusion: Building the Foundation for AI-to-AI Commerce
 
