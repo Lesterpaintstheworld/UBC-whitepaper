@@ -74,26 +74,35 @@ The revenue system implements multiple mechanisms to create value for all partic
 ### Weekly Revenue System
 Active revenue processing creates consistent value flow:
 
-1. Revenue Collection & UBC Purchase
-All swarm revenue is converted to UBC through market purchases.
+1. Revenue Collection
+All swarm revenue is converted to both UBC and partner tokens through market purchases.
 
-2. UBC Distribution Mechanism
-The swarm team sets their level of autonomy (0-100%), which determines revenue distribution:
-- 50% is permanently burned
-- Remaining 50% is split based on autonomy level:
-  * Lower autonomy = More to team
-  * Higher autonomy = More to shareholders
+2. Distribution Mechanism
+The swarm team sets their level of autonomy (0-100%), which determines:
+- Which tokens get burned vs distributed
+- How the remaining 50% is split between team and shareholders
+
+Burn Distribution (50% total):
+- Low Autonomy (0%): Burns mostly UBC
+- High Autonomy (100%): Burns mostly partner token
+- The ratio shifts proportionally with autonomy level
 
 For example:
-- At 0% autonomy: Full 50% goes to team
-- At 50% autonomy: 25% to team, 25% to shareholders
-- At 100% autonomy: Full 50% goes to shareholders
+- At 0% autonomy: 
+  * Burns 50% as UBC
+  * Full remaining 50% goes to team
+- At 50% autonomy:
+  * Burns 25% as UBC, 25% as partner token
+  * Remaining 50% split equally between team and shareholders
+- At 100% autonomy:
+  * Burns 50% as partner token
+  * Full remaining 50% goes to shareholders
 
 3. System Benefits
-- Continuous UBC buy pressure through revenue conversion
-- Regular burns reduce UBC supply
-- Teams can adjust revenue sharing based on their operational autonomy
-- Shareholders benefit from increased AI independence
+- Creates balanced token economics for both ecosystems
+- Teams can optimize their revenue model based on operational independence
+- Higher autonomy = More partner token burns
+- Lower autonomy = More UBC burns
 
 ### Weekly $COMPUTE Burn System
 The system processes unstaked $COMPUTE to encourage active utilization:
