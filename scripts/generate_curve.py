@@ -5,33 +5,35 @@ def calculate_price(supply):
     initial_price = 1
     growth_rate = 0.35
     step_size = 50000
-    return initial_price * (1 + growth_rate) ** (supply / step_size)
+    volatility = 0.3
+    
+    # Base exponential growth
+    base_price = initial_price * (1 + growth_rate) ** (supply / step_size)
+    
+    # Add sinusoidal variation to the base price
+    frequency = 2 * np.pi / step_size  # Complete one cycle every 50,000 tokens
+    sinusoidal_component = base_price * volatility * np.sin(frequency * supply)
+    
+    return base_price + sinusoidal_component
 
 def generate_curve():
     # Create supply points (0 to 1M tokens)
     supply = np.linspace(0, 1000000, 1000)
     
-    # Calculate base prices
-    base_prices = [calculate_price(s) for s in supply]
-    
-    # Calculate volatility bands (±30%)
-    upper_prices = [p * 1.3 for p in base_prices]
-    lower_prices = [p * 0.7 for p in base_prices]
+    # Calculate prices with built-in sinusoidal variation
+    prices = [calculate_price(s) for s in supply]
     
     # Create the plot
     plt.figure(figsize=(15, 10))
     
-    # Plot volatility band
-    plt.fill_between(supply, lower_prices, upper_prices, alpha=0.2, color='gray', label='Trading Range (±30%)')
-    
-    # Plot base curve
-    plt.plot(supply, base_prices, 'b-', linewidth=2, label='Base Price')
+    # Plot the bonding curve
+    plt.plot(supply, prices, 'b-', linewidth=2, label='Bonding Curve')
     
     # Add grid
     plt.grid(True, linestyle='--', alpha=0.7)
     
     # Labels and title
-    plt.title('UBC Bonding Curve with Trading Cycles', fontsize=16, pad=20)
+    plt.title('UBC Bonding Curve', fontsize=16, pad=20)
     plt.xlabel('Supply', fontsize=12)
     plt.ylabel('Price ($COMPUTE)', fontsize=12)
     
