@@ -26,6 +26,15 @@ Each swarm launch begins with carefully calibrated parameters that balance acces
 - Trading Cycle Length: 50,000 share intervals create regular trading opportunities
 - Price Volatility: ±30% around base curve allows for profitable trading while preventing excessive speculation
 
+### Price Discovery Visualization
+![UBC Bonding Curve](bonding_curve.png)
+
+The bonding curve implements an exponential growth mechanism with built-in trading cycles:
+- The base formula (Price = 1 * (1.35)^(supply/50000)) provides systematic price increases
+- A ±30% sinusoidal variation creates natural trading cycles every 50,000 shares
+- Each cycle completes one full oscillation, enabling predictable trading opportunities
+- The curve maintains upward momentum while providing regular entry/exit points
+
 ### Price Discovery
 The bonding curve implements an exponential growth mechanism that creates predictable yet attractive price movement:
 - The base formula (Price = 1 * (1.35)^(supply/50000)) ensures systematic price increases
