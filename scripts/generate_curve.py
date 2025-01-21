@@ -27,7 +27,7 @@ def generate_curve():
     plt.figure(figsize=(5, 3))  # Smaller size
     
     # Plot the bonding curve
-    plt.plot(supply, prices, 'b-', linewidth=1.5, label='Bonding Curve', color='#4d94ff')
+    plt.plot(supply, prices, '-', linewidth=1.5, label='Bonding Curve', color='#4d94ff')
     
     # Add grid
     plt.grid(True, linestyle='--', alpha=0.3)
