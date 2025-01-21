@@ -2,19 +2,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def calculate_price(supply):
-    initial_price = 1
-    growth_rate = 0.35
-    step_size = 5000
+    # Normalize supply to 0-1 range
+    x = supply/100000
+    
+    # Base price calculation
+    base_price = 1 + 999 * (0.4 * x + 0.6 * x**1.8)
+    
+    # Add sinusoidal variation
+    frequency = 2 * np.pi / 5000  # Complete one cycle every 5000 tokens
     volatility = 0.3
+    sinusoidal_factor = 1 + volatility * np.sin(frequency * supply)
     
-    # Base exponential growth
-    base_price = initial_price * (1 + growth_rate) ** (supply / step_size)
-    
-    # Add sinusoidal variation to the base price
-    frequency = 2 * np.pi / step_size  # Complete one cycle every 50,000 tokens
-    sinusoidal_component = base_price * volatility * np.sin(frequency * supply)
-    
-    return base_price + sinusoidal_component
+    return base_price * sinusoidal_factor
 
 def generate_curve():
     # Create supply points (0 to 100k tokens)
@@ -37,13 +36,16 @@ def generate_curve():
     plt.xlabel('Supply', fontsize=8)
     plt.ylabel('Price', fontsize=8)
     
+    # Set y-axis limits
+    plt.ylim(0, 1300)  # Maximum theoretical price is 1000 * 1.3
+    
     # Add trading cycle markers
     for cycle in range(0, 100001, 5000):
         if cycle < len(supply):
             base_price = calculate_price(cycle)
             plt.axvline(x=cycle, color='#ff9999', linestyle='--', alpha=0.2)
-            if cycle % 10000 == 0:  # Label every other cycle
-                plt.annotate(f'${base_price:.1f}', 
+            if cycle % 20000 == 0:  # Label fewer points to avoid crowding
+                plt.annotate(f'${base_price:.0f}',  # Remove decimal places for larger numbers
                             (cycle, base_price),
                             xytext=(5, 5),
                             textcoords='offset points',
