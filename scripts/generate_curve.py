@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def calculate_price(supply):
     initial_price = 1
     growth_rate = 0.35
-    step_size = 50000
+    step_size = 5000
     volatility = 0.3
     
     # Base exponential growth
@@ -17,8 +17,8 @@ def calculate_price(supply):
     return base_price + sinusoidal_component
 
 def generate_curve():
-    # Create supply points (0 to 1M tokens)
-    supply = np.linspace(0, 1000000, 1000)
+    # Create supply points (0 to 100k tokens)
+    supply = np.linspace(0, 100000, 1000)
     
     # Calculate prices with built-in sinusoidal variation
     prices = [calculate_price(s) for s in supply]
@@ -37,12 +37,12 @@ def generate_curve():
     plt.xlabel('Supply', fontsize=8)
     plt.ylabel('Price', fontsize=8)
     
-    # Add trading cycle markers more sparsely (every other cycle)
-    for cycle in range(0, 1000001, 100000):
+    # Add trading cycle markers
+    for cycle in range(0, 100001, 5000):
         if cycle < len(supply):
             base_price = calculate_price(cycle)
             plt.axvline(x=cycle, color='#ff9999', linestyle='--', alpha=0.2)
-            if cycle % 200000 == 0:  # Label fewer points to avoid overlap
+            if cycle % 10000 == 0:  # Label every other cycle
                 plt.annotate(f'${base_price:.1f}', 
                             (cycle, base_price),
                             xytext=(5, 5),
