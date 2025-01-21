@@ -19,20 +19,18 @@ The primary market uses a bonding curve to create a predictable and transparent 
 
 ### Initial Parameters
 Each swarm launch begins with carefully calibrated parameters that balance accessibility with long-term value creation:
-- Starting Price: 1 $COMPUTE provides an accessible entry point while maintaining perceived value
-- Growth Rate: The 35% exponential increase per 50,000 shares creates strong price appreciation without excessive early barriers
-- Maximum Supply: 1,000,000, shares per swarm enables significant participation while maintaining scarcity
-- Trading Cycle Length: 50,000 share intervals create regular trading opportunities
+- Starting Price: 1 $COMPUTE provides an accessible entry point
+- Maximum Price: Up to 1300 $COMPUTE at peak volatility
+- Supply Range: 0-100,000 shares per swarm enables significant participation while maintaining scarcity
+- Trading Cycle Length: 5,000 share intervals create regular trading opportunities
 - Price Volatility: ±30% around base curve allows for profitable trading while preventing excessive speculation
 
-![UBC Bonding Curve](bonding_curve.png)
-
-The bonding curve implements an exponential growth mechanism that creates predictable yet attractive price movement:
-- The base formula (Price = 1 * (1.35)^(supply/50000)) ensures systematic price increases
-- Each 50,000 share cycle marks a clear trading interval with a 35% base price increase
-- Natural market cycles of ±30% create regular trading opportunities around the base price
-- Market activity continuously refines price discovery within these parameters
-- All purchases along the curve incur the standard 5% fee structure (2% Partner + 1% Platform + 2% Investor), collected in UBC
+The bonding curve implements a hybrid growth mechanism:
+- Base formula: P(x) = 1 + 999 * (0.4 * x + 0.6 * x^1.8)
+- Volatility factor: [1 + 0.3 * sin(2π * s/5000)]
+- Creates predictable yet attractive price movement with natural trading cycles
+- Combines linear and power-law growth for balanced price discovery
+- Market activity continuously refines price within ±30% volatility bands
 
 ### Share Distribution
 The system naturally encourages a balanced distribution of shares across different market phases:
